@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ISBTASK</string>
+    <string name="success">Sucess</string>
+    <string name="ok1">Ok</string>
+    <string name="warning">Warning</string>
+    <string name="internet_error">Check Your connection</string>
+    <string name="title_activity_home_map">Map</string>
+    <string name="error_loading_cities">Error Loading Cities</string>
+</resources>

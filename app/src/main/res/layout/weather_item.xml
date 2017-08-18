@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:card_view="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+card_view:cardUseCompatPadding="true">
+
+<LinearLayout
+    style="@style/Widget.CardContent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_7sdp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="City Name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:text="text"
+            style="@android:style/TextAppearance.Small"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Current Temperature in Celsius"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/temp"
+            android:text="text"
+            style="@android:style/TextAppearance.Small"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Humidity"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Humidity"
+            android:text="text"
+            style="@android:style/TextAppearance.Small"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wind Speed and Degree"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/wind_and_degree"
+            android:text="text"
+            style="@android:style/TextAppearance.Small"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+</android.support.v7.widget.CardView>
